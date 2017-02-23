@@ -10,7 +10,7 @@ class Solution {
         for (int i = 0; i < dictSize; i++)
         {
             string[] dictEntry = Console.ReadLine().Split(' ');
-            dict.Add(dictEntry[0], dictEntry[1]);
+            dict.Add(dictEntry[0], dictEntry[1]);    
         }
 
         string query = Console.ReadLine();
